@@ -1,0 +1,21 @@
+{
+  "name": "aplicativo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "git": "^0.1.5",
+    "npm-git-install": "^0.3.0",
+    "sequelize": "^6.20.1",
+    "sqlite3": "^5.0.8"
+  }
+}
